@@ -8,7 +8,8 @@ body {
 }
 
 p,
-h1 {
+h1,
+h2 {
     margin: 0;
 }
 
@@ -85,6 +86,31 @@ nav ul {
     color: #f9FAF8;
     border-radius: 5px;
     background-color: #3882F6;
+}
+
+section {
+    padding: 0 200px;
+}
+
+.cta-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 90px;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.cta-banner .btn {
+    border: 1px #F9FAF8 solid;
+}
+
+.banner-title {
+    color: #F9FAF8;
+}
+
+.banner-copy {
+    color: #E5E7EB;
 }
 
 footer {
