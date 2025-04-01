@@ -1,3 +1,42 @@
 body {
+    margin: 0;
     font-family: "Roboto", sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F9FAF8;
+    text-decoration: underline;
+}
+
+header {
+    padding: 0 200px;
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+nav {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
 }
