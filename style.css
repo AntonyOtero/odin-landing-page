@@ -1,4 +1,8 @@
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 0;
     font-family: "Roboto", sans-serif;
 }
@@ -81,4 +85,13 @@ nav ul {
     color: #f9FAF8;
     border-radius: 5px;
     background-color: #3882F6;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5e7eb;
+    background-color: #1F2937;
+    padding: 30px 200px;
 }
