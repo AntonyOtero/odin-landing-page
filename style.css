@@ -1,5 +1,4 @@
 body {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -9,7 +8,8 @@ body {
 
 p,
 h1,
-h2 {
+h2,
+blockquote {
     margin: 0;
 }
 
@@ -88,11 +88,40 @@ nav ul {
     background-color: #3882F6;
 }
 
+main {
+    flex-grow: 0;
+}
+
 section {
-    padding: 0 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 200px;
+}
+
+#testimonial {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+#testimonial blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+#testimonial > p {
+    color: #1F2937;
+    font-weight: bold;
+    align-self: flex-end;
 }
 
 .cta-banner {
+    flex-grow: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
